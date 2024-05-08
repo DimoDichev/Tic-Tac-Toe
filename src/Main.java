@@ -31,12 +31,14 @@ public class Main {
 
             setCoordinates();
 
-            //check for winner
+            //TODO: check for winner
 
-            //change player
+            //TODO: change player
 
             printBoard();
         }
+
+        //TODO: print winner
     }
 
     private static void printBoard() {
@@ -54,6 +56,7 @@ public class Main {
         int row = coordinates[0];
         int col = coordinates[1];
         return (row > 0 && row <= 3) && (col > 0 && col <= 3);
+        //TODO: validate for "-"
     }
 
     private static void setCoordinates() {
